@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * bài thực hành đầu tiên này sẽ thực hiện việc hiện thị tên của host sau khi biết địa chỉ IP
+ * hoặc cho trước tên host và phải hiện thị địa chỉ IP của host
+ * đây là một bài tập đơn giản chúng ta luyện tập về cách sử dụng lớp InetAddress
  */
 package nwsimple;
 
