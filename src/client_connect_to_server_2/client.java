@@ -22,7 +22,8 @@ public class client {
                 for (int i = 0; i < 5; i++) {
                     Socket socket = new Socket("localhost", 2016);//nếu đặt khai báo socket này ngoài vòng lặp thì nó chỉ gửi được thông tin tới server 1 lần mà thôi
                     stream1 = new ObjectOutputStream(socket.getOutputStream());
-                    stream1.writeObject("heloo "+i);
+                    stream1.writeObject("heloo vinh "+i);
+                    socket.close();
                 }
                     
                 
