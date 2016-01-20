@@ -22,8 +22,7 @@ public class connect_to_webserver {
                         + theSocket.getInetAddress()
                         + " on port " + theSocket.getPort() + " from port "
                         + theSocket.getLocalPort() + " of "
-                        + theSocket.getLocalAddress());
-            
+                        + theSocket.getLocalAddress());            
         } // end for
     } // end main 
 
